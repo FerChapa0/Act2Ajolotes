@@ -64,6 +64,53 @@ section {
     margin-bottom: 20px;
 }
 
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+form label {
+    margin: 10px 0 5px;
+    font-weight: bold;
+}
+
+form input[type="text"],
+form input[type="email"],
+form input[type="number"] {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+form input[type="checkbox"] {
+    margin-right: 10px;
+}
+
+form input[type="submit"] {
+    background-color: #2980B9;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+form input[type="submit"]:hover {
+    background-color: #1A242F;
+}
+
+a {
+    color: #2980B9;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #1A242F;
+}
+
 footer {
     text-align: center;
     padding: 10px;

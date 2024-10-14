@@ -1,35 +1,54 @@
-
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Esta pagina es para suscribirte a la revista">
+    <meta name="description" content="Esta página es para suscribirte a la revista">
     <meta name="author" content="Fernando Chapa">
+    <title>Suscríbete a Nuestra Revista - Ajolotes En México</title>
+    <link rel="stylesheet" href="estillos.css">
 </head>
 <body>
-    <h1 style="font-size: xx-large; text-align: center; color: red;">Suscribete a Nuestra Revista</h1>
-    <p style="font-size: x-large;">Danos tus Datos</p>
-    <form action="">
-        <label for="nombre">Cual es tu nombre</label>
-        <input type="text" name="nombre" id=""><br>
-        <label for="mail">Cual es tu email</label>
-        <input type="email" name="mail" id=""><br>
-        <label for="edad">Cual es tu Edad</label>
-        <input type="number" name="edad" id=""><br>
-        <label for="noti">Desea recibir notificaciones</label>
-        <input type="checkbox" name="noti" id=""> <br>
-        <input style="font-size: medium;" type="button" value="Enviar">
-    </form> <br>
-    <form action="">
-        <label for="tyc" style="font-size: large;"> Acepto Terminos y Condiciones </label>
-            <input type="checkbox" name="tyc" id="">
-    </form>
-    <a href="tycon.html" style="font-size: larger;">Ver terminos y Condiciones</a>
-    <p>
-        Derechos reservados &copy;
-    </p>
-    <center><img width="250" src="https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcQqqdZZZdYpQH-l71PXGWhfHzUIA6aU1lite8Vt_9jU8B33Gqlg" ></center>
-    <center><a href="index.html" style="font-size: larger;"> Volver al inicio</a></center>
+    <nav>
+        <ul>
+            <li><a href="index.html">Inicio</a></li>
+            <li><a href="suscribete.html">Suscríbete</a></li>
+            <li><a href="contacto.html">Contáctanos</a></li>
+            <li><a href="conocenos.html">¿Quiénes somos?</a></li>
+            <li><a href="tycon.html">Términos y Condiciones</a></li>
+        </ul>
+    </nav>
+    <header>
+        <h1>Suscríbete a Nuestra Revista</h1>
+    </header>
+    <main>
+        <section>
+            <h2>Danos tus Datos</h2>
+            <form action="">
+                <label for="nombre">¿Cuál es tu nombre?</label>
+                <input type="text" name="nombre" id="nombre" required><br>
+                <label for="mail">¿Cuál es tu email?</label>
+                <input type="email" name="mail" id="mail" required><br>
+                <label for="edad">¿Cuál es tu edad?</label>
+                <input type="number" name="edad" id="edad" required><br>
+                <label for="noti">¿Desea recibir notificaciones?</label>
+                <input type="checkbox" name="noti" id="noti"><br>
+                <input type="submit" value="Enviar">
+            </form>
+            <br>
+            <form action="">
+                <label for="tyc">Acepto Términos y Condiciones</label>
+                <input type="checkbox" name="tyc" id="tyc" required>
+            </form>
+            <a href="tycon.html">Ver Términos y Condiciones</a>
+            <p>Derechos reservados &copy;</p>
+            <center>
+                <img width="250" src="https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcQqqdZZZdYpQH-l71PXGWhfHzUIA6aU1lite8Vt_9jU8B33Gqlg" alt="Axolotl">
+            </center>
+            <center>
+                <a href="index.html">Volver al inicio</a>
+            </center>
+        </section>
+    </main>
 </body>
 </html>
